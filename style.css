@@ -1,0 +1,414 @@
+*{
+    margin: 0;padding: 0;
+}
+body{
+    font-family:'Bree Serif', serif ;
+}
+#title{
+    font-size: 30px;
+    text-align: center;
+}
+#navbar{
+    
+    display: flex;
+    align-items: center;
+    position: absolute;
+    background-color: #d8eacc;
+    width: 100%;
+    
+}
+#navbar ul{
+    display: flex;
+    height: 100%;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#navbar ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 2px 20px;
+    margin:7px 5px;
+    color: black;
+    
+}
+#navbar ul li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+    
+}
+#left{
+    display: flex;
+}
+
+.btn{
+    justify-content: end;
+    align-items: end;
+}
+#form{
+    margin: 0px 70px;
+    padding: 4px 5px;
+    border-radius: 6px;
+}
+
+#login{
+    margin: 0px 8px;
+}
+#subscribe{
+    margin: 0px 11px;
+}    
+.btn{
+    color: white;
+    background-color: red;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color:black;
+    background-color:white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn:active{
+    color:black;
+    background-color:white;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.container{
+    display: grid;
+    position: inherit;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:repeat(4, 1fr);
+    grid-gap: .3rem;
+    margin: 70px 33px;
+}
+#pic1 img{
+    border-radius: 6px;
+    height: 480px;
+    width: 1025px;
+
+}
+#headline h1{
+    font-size: 50px;
+}
+#headline h1:hover{
+    text-decoration: underline;
+}
+#headline p{
+    font-size: 20px;
+}
+
+/*.item{
+    border: 2px solid black;
+    background-color: antiquewhite;
+}*/
+.item:first-child{
+    grid-column: 1/span 3;
+    grid-row: 1/span 3;
+}
+.item{
+    
+    margin: 3px;
+    padding: 15px 27px;
+    font-size: 20px;
+   
+}
+.item img:hover{
+    transform: scale(1.08);
+}
+.item p:hover{
+    text-decoration: underline;
+   
+}
+#sub1 img{
+    
+    border-radius: 6px;
+     height:120px;
+     width:200px;
+     
+}
+#sub2 img{
+    
+    border-radius: 6px;
+     height:120px;
+     width:200px;
+}
+#sub3 img{
+    
+    border-radius: 6px;
+     height:120px;
+     width:200px;
+}
+#sub4 img{
+    
+    border-radius: 6px;
+     height:120px;
+     width:200px;
+}
+#sub5 img{
+    border-radius: 6px;
+     height:120px;
+     width:200px;
+}
+#sub6 img{
+    
+    border-radius: 6px;
+     height:120px;
+     width:200px;
+}
+#sub7 img{
+    
+    border-radius: 6px;
+     height:120px;
+     width:200px;
+}
+#sec2{
+    display: grid;
+}
+.container2{
+    display: grid;
+    grid-template-areas:  'section section section section';
+    grid-gap: .3rem;
+    margin: 0px 33px;
+
+}
+#section{
+    grid-area: section;
+}
+#sec2 h1{
+    font-size: 50px;
+    margin: 0px 35px;
+}
+.item2{
+    /*border: 2px solid black;
+    background-color: antiquewhite;*/
+    margin: 10px;
+    padding: 10px 10px;
+    height: 300px;
+    border-left: 2px solid black;
+}
+.item2 img{
+    
+    border-radius: 6px;
+    height: 150px;
+    width: 313px;
+    margin: 4px;
+}
+.item2 img:hover{
+    transform: scale(1.08);
+}
+.item2 p{
+    font-size: 19px;
+}
+.item2 h3{
+    font-size: 20px;
+}
+.item2 h3{
+    font-size: 20px;
+}
+.item2 h3:hover{
+    text-decoration: underline;
+}
+#para{
+    padding-top: 5px;
+}
+#para:hover{
+     text-decoration:underline;
+}
+#sec4 h1{
+    font-size: 50px;
+    margin: 0px 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.container4{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 400px;
+    grid-gap: .3px;
+    margin: -6px 33px;
+
+}
+.item4{
+   
+    display: flex;
+    margin: 4px;
+    padding: 10px 10px;
+}
+.item4:first-child{
+    grid-column: 1/span 3;
+    grid-row: 1/span 3;
+}
+.item4 img:hover{
+    transform: scale(1.08);
+}
+#india4{
+    display: flex;
+}
+#india4 img{
+    border-radius: 6px;
+    height: 374px;
+}
+#india5{
+    width: 250px;
+    margin: 5px;
+    
+}
+#india6{
+    padding: 10px 16px;
+    margin: 5px;
+    border-left: 2px solid black;
+}
+#india6 ul li{
+    padding: 10px 0px;
+     list-style: none;
+}
+#india6 ul li:hover{
+    text-decoration: underline;
+}
+.india6:hover{
+    text-decoration: underline;
+}
+#ind11 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind12 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind13 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind14 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind15 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind16 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#sec3 h1{
+    font-size: 50px;
+    margin: 0px 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.container3{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 400px;
+    grid-gap: .3px;
+    margin: -6px 33px;
+
+}
+.item3{
+   
+    display: flex;
+    margin: 4px;
+    padding: 10px 10px;
+}
+.item3:first-child{
+    grid-column: 1/span 3;
+    grid-row: 1/span 3;
+}
+.item3 img:hover{
+    transform: scale(1.08);
+}
+#india1{
+    display: flex;
+}
+#india1 img{
+    border-radius: 6px;
+    height: 374px;
+}
+#india2{
+    width: 250px;
+    margin: 5px;
+    
+}
+#india3{
+    padding: 10px 16px;
+    margin: 5px;
+    border-left: 2px solid black;
+}
+#india3 ul li{
+    padding: 10px 0px;
+     list-style: none;
+}
+#india3 ul li:hover{
+    text-decoration: underline;
+}
+.india3:hover{
+    text-decoration: underline;
+}
+#ind1 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind2 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind3 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind4 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind5 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+#ind6 img{
+    border-radius: 6px;
+    padding: 4px;
+    height: 74px;
+    width: 106px;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
